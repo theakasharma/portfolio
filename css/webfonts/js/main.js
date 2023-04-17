@@ -128,7 +128,7 @@ $(function() {
     delay: 2600,
     trailWidth: 7,
     step: function(state, circle) {
-      var value = Math.round(circle.value() * 100);
+      var value = Math.round(circle.value() * 10);
       if (value === 0) {
         circle.setText('');
       } else {
